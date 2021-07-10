@@ -16,7 +16,7 @@ sudo cmake --build . --target install
 git clone https://invent.kde.org/plasma/plasma-bigscreen
 cd plasma-bigscreen/
 rm -Rf build/*
-cmake -B build -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake
+cmake -B build -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 sudo cmake --build build --target install
 
