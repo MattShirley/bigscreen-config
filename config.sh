@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt upgrade
 
-sudo apt install -y build-essential git perl python cmake gettext vim
+sudo apt install -y build-essential git perl python cmake gettext
 sudo apt install -y extra-cmake-modules plasma-workspace-dev libkf5activities-dev libkf5activitiesstats-dev libkf5i18n-dev kirigami2-dev libkf5declarative-dev libkf5kcmutils-dev libkf5notifications-dev libkf5kio-dev libkf5wayland-dev
 
 # revisit whether the following are necessary
