@@ -13,6 +13,7 @@ cmake .
 cmake --build .
 sudo cmake --build . --target install
 
+cd
 git clone https://invent.kde.org/plasma/plasma-bigscreen
 cd plasma-bigscreen/
 rm -Rf build/*
