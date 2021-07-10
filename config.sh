@@ -1,14 +1,9 @@
 sudo apt update
 sudo apt upgrade
 
-sudo apt install -y build-essential git perl python cmake
-sudo apt install -y extra-cmake-modules
-sudo apt install -y libkf5activities-dev
-sudo apt install -y libkf5activitiesstats-dev
-sudo apt install -y plasma-workspace-dev
-sudo apt install -y gettext
-sudo apt install libkf5i18n-dev libkf5kirigami2-dev libkf5declarative-dev libkf5kcmutils-dev libkf5notifications-dev libkf5kio-dev libkf5wayland-dev
-sudo apt install libkf5i18n-dev kirigami2-dev libkf5declarative-dev libkf5kcmutils-dev libkf5notifications-dev libkf5kio-dev libkf5wayland-dev
+sudo apt install -y build-essential git perl python cmake gettext vim
+sudo apt install -y extra-cmake-modules plasma-workspace-dev libkf5activities-dev libkf5activitiesstats-dev libkf5i18n-dev kirigami2-dev libkf5declarative-dev libkf5kcmutils-dev libkf5notifications-dev libkf5kio-dev libkf5wayland-dev
+
 sudo apt-get install qttools5-dev-tools libqt5svg5-dev qtmultimedia5-dev
 
 git clone https://invent.kde.org/plasma/plasma-nano.git
