@@ -24,5 +24,5 @@ rm -Rf build/*
 cmake -B build -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake
 cmake --build build
 sudo cmake --build build --target install
-+
+
 plasmashell --replace -p org.kde.plasma.mycroft.bigscreen
